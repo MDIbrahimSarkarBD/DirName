@@ -58,3 +58,9 @@ git remote remove origin
 git pull
  git pull --allow-unrelated-histories
 
+ // Installing GitHub CLI cli/cli: GitHub's official command line tool - GitHub
+ winget install --id GitHub.cligh
+ gh issue list
+ gh repo create DirName --public --enable-issues
+ 
+
